@@ -1,0 +1,10 @@
+.last-txn-head{
+    color: #343C6A;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  background: none;
+}
+.txns-un-list{
+    margin-left: 0;
+}

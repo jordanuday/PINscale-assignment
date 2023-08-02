@@ -1,0 +1,19 @@
+.tab-item{
+    list-style-type: none;
+    margin-right: 2rem;    
+}
+
+.tab-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+}
+.active-tab-btn{
+    color: #2D60FF;
+    border-bottom: 3px solid #2D60FF;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+}

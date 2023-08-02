@@ -1,0 +1,137 @@
+
+.dashboard-container{
+    width: 100%;
+    border-left: 1px solid rgb(228, 218, 218);
+    margin-left: 16rem;
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(228, 218, 218);
+    position: sticky;
+}
+.accounts-head{
+  color: #343C6A;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  background: none;
+}
+@media screen and (min-width: 992px) {
+    .main-container{
+        display: flex;
+        
+    }
+    .second-container{
+        padding: 2rem;
+        background-color: #f5f5f7;
+        min-height: 80vh;
+      }
+      .credit-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 1.5rem;
+        width: 27rem;
+        border-radius: 1rem;
+    }
+    .debit-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 1.5rem;
+        width: 27rem;
+        border-radius: 1rem;
+    }
+    .credit-debit-image{
+        height: 110px;
+        width: 120px;
+      }
+      .credit-amount-head{
+        color: #16DBAA;
+        font-weight: 650;
+        font-size: 1.9rem;
+        
+    }
+    
+    .debit-amount-head{
+        color: #FE5C73;
+        font-weight: 650;
+        font-size: 1.9rem;
+    }
+    .credit-debit-para{
+        color:#718EBF;
+        font-size: 1.2rem;
+    }
+    .credit-debit-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 991px) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-container{
+        padding: 1rem;
+        background-color: #f5f5f7;
+        min-height: 80vh;
+      }
+      .credit-debit-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+      .credit-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        width: 10rem;
+        border-radius: 1rem;
+        margin: 0.5rem 0 0.5rem 0 ;
+    }
+    .debit-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        width: 10rem;
+        border-radius: 1rem;
+        margin: 0.5rem 0 0.5rem 0 ;
+    }
+    .credit-debit-image{
+        height: 60px;
+        width: 70px;
+      }
+      .credit-amount-head{
+        color: #16DBAA;
+        font-weight: 550;
+        font-size: 1.3rem;
+        background: none;
+    }
+    
+    .debit-amount-head{
+        color: #FE5C73;
+        font-weight: 550;
+        font-size: 1.3rem;
+        background: none;
+    }
+    .credit-debit-para{
+        color:#718EBF;
+        font-size: 0.8rem;
+        background: none;
+    }
+}
+
+
+
+

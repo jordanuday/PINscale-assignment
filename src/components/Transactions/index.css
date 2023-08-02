@@ -1,0 +1,26 @@
+@media screen and (min-width:992px) {
+.main-container-txns{
+    display: flex;
+    height: 100vh;
+}
+.header-container{
+    position: fixed;
+}
+.all-txns-container{
+    margin-left: 16rem;
+    width: 100%;
+    border-left: 1px solid rgb(228, 218, 218);
+}
+}
+@media screen and (max-width:991px) {
+    .main-container-txns{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .all-txns-container{
+        /* margin-left: 16rem;
+        width: 100%; */
+        border-left: 1px solid rgb(228, 218, 218);
+    }
+}

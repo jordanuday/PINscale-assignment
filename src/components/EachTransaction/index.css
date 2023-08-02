@@ -1,0 +1,113 @@
+@media screen and (min-width: 992px) {
+    .each-txn{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .arrow-txn-cont{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 10rem;
+        margin-left: 0px;
+    }
+    .txn-name-head{
+        color: #4c5481;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+    .txn-para-category{
+        color: #646c94;
+        font-weight: 500;
+        width: 8rem;
+        font-size: 1rem;
+    }
+    .txn-para{
+        color: #646c94;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .credit{
+        color: #16DBAA;
+        font-weight: 600;
+        font-size: 1.3rem;
+    
+    }
+    .debit{
+        color: #FE5C73;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    
+    .icons-cont{
+        margin-right: 2rem;
+    }
+    .delete-btn{
+        background: none;
+        border: none;
+    }
+    .delete-icon{
+        color: #FE5C73;
+        font-weight: 600;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 991px) {
+    .each-txn{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .arrow-txn-cont{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 5rem;
+        margin-left: 0px;
+    }
+    .txn-name-head{
+        color: #4c5481;
+        font-size: 0.6rem;
+        margin-left: 0.2rem;
+        background: none;
+    }
+    .txn-para-category{
+        color: #646c94;
+        width: 4.5rem;
+        font-size: 0.6rem;
+        background: none;
+    }
+    .txn-para{
+        color: #646c94;
+        font-size: 0.6rem;
+        background: none;
+    }
+    .credit{
+        color: #16DBAA;
+        font-size: 0.7rem;
+        background: none;
+    }
+    .debit{
+        color: #FE5C73;
+        font-size: 0.7rem;
+        background: none;
+    }
+    
+    .icons-cont{
+        margin-right: 1rem;
+    }
+    .delete-btn{
+        background: none;
+        border: none;
+    }
+    .delete-icon{
+        color: #FE5C73;
+        background: none;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+}
